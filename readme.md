@@ -20,6 +20,12 @@
 
 * "a" ne doit pas être dans un button
 
+* Pas de DOM dans le JS
+
+* Remplacer var par let dans le JS
+
+* L'envoie du formulaire en local ne marche pas
+
 [Lien de la video](https://www.youtube.com/watch?v=CQZxeoQeo5c)
 
 [Lien du site Web](https://ryanvaugarni.github.io/PPE2_DEV/)
