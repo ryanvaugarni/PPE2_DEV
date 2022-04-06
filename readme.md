@@ -4,6 +4,10 @@
 
 * Pas de dossier répertoire pour orgniser son travail
 
+* Il n'y a pas de header, ni de main, ni de footer
+
+* Ce n'est pas sémantique
+
 * Pas de meta description dans le head
 
 * Le h2 ne peut pas être écrit avant le h1
