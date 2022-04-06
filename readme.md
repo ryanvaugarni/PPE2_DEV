@@ -13,4 +13,3 @@
 * "a" ne doit pas être dans un button
 
 [Lien de la video](https://www.youtube.com/watch?v=CQZxeoQeo5c)
-# PPE2_DEV
