@@ -7,31 +7,13 @@ let date, foot
     foot.innerText += `${date.getFullYear()} - Ryan Vaugarni | All rights reserved for educational purposes only`
 
 /*FORM*/
-let el2 = document.querySelector(".form p");
-let btn, email, mdp;
-btn = document.getElementsByTagName("input")[2];
-email = document.getElementsByTagName("input")[0].value;
-mdp = document.getElementsByTagName("input")[1].value;
-btn.addEventListener("click", e => {
-    e.preventDefault();
-    Formulaire();
-});
-let Formulaire = () => {
-    btn = document.getElementsByTagName("input")[2];
-    email = document.getElementsByTagName("input")[0].value;
-    mdp = document.getElementsByTagName("input")[1].value;
-    console.log(email, mdp);
-    if (email === "" || mdp === "") {
-        el2.innerText = "Veuillez remplir tous les champs ";
-        el2.classList.remove("success");
-        el2.classList.add("warning");
-    } else {
-        el2.innerText = "Votre formulaire a bien été envoyé";
-        el2.classList.remove("warning");
-        el2.classList.add("success");
-        localStorage.setItem("user", email + " | " + mdp);
-        sessionStorage.setItem("user", "sessionid");
-
-    }
-};
+let user = ({
+    el : document.querySelector('input[type="email"]'),
+    login: "ryan.vaugarni@gmail.com",
+    mdp: 2022,
+})
+    console.log(user.el)
+    localStorage.setItem("email", user.login)
+    localStorage.setItem("mdp", user.mdp)
+    user.el.value == user.login ? console.log("connexion réussie") : console.log("connexion échouée")
 });

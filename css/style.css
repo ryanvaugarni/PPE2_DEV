@@ -9,10 +9,6 @@
 body{
     font: 1.6rem 'Montserrat', sans-serif;
     margin: 0;
-    /* background-color: #fff;
-    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(../asset/1.jpg);
-    background-position: center;
-    background-size: cover; */
 }
 h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
     margin: 0;
@@ -349,6 +345,6 @@ footer{
        min-height: 100vh;
     }
     footer{
-        margin-top: 30rem;
+        margin-top: 25rem;
     }
     }
