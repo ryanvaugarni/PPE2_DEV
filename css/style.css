@@ -210,17 +210,14 @@ section span{
 .form p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    
     text-align: center;
     color: #fff;
 }
-
 form input:focus{
     outline: none;
 }
-
 ::placeholder{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: Arial;
 }
 

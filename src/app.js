@@ -8,12 +8,17 @@ let date, foot
 
 /*FORM*/
 let user = ({
-    el : document.querySelector('input[type="email"]'),
+    btn: document.querySelector(".btn_validate"),
+    lo : document.querySelector('input[type="email"]'),
     login: "ryan.vaugarni@gmail.com",
     mdp: 2022,
 })
-    console.log(user.el)
+    console.log(user.btn)
     localStorage.setItem("email", user.login)
     localStorage.setItem("mdp", user.mdp)
-    user.el.value == user.login ? console.log("connexion réussie") : console.log("connexion échouée")
+    user.btn.addEventListener("click",(e)=>{
+        e.preventDefault();
+        user.lo.value == user.login ? console.log("connexion réussie") : console.log("connexion échouée")
+    })
+    
 });
