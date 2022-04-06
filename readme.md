@@ -2,17 +2,18 @@
 
 ## Relevé d'infos sur la vidéo
 
-* Pas de dossier répertoire pour orgniser son travail
+* Pas de dossier répertoire pour organiser son travail, toujours avoir un dossier asset, css et src ou js
 
-* Il n'y a pas de header, ni de main, ni de footer
+* Il n'y a pas de header, ni de main, ni de footer, il faut donc les ajouter
 
 * Ce n'est pas sémantique
 
-* Pas de meta description dans le head
+* Pas de meta description dans le head, il faut ajouter <br>
+`<meta name="description" content="Webpage Design">`
 
 * Le h2 ne peut pas être écrit avant le h1
 
-* Trop de div avec des class, les div ne sont pas reconnu dans le navigateur
+* Trop de div avec des class, les div ne sont pas reconnu dans le navigateur, à place il faudrait utiliser une section et form pour le formulaire
 
 * Pas de reset dans le css
 
@@ -20,15 +21,14 @@
 
 * Il ne faut pas mettre de taille fix dans le width, il faut utiliser des % ou mettre un max-width
 
-* Il n'y a pas de label dans les input
+* Pas de DOM dans le JS, il faut ajouter :
+`document.addEventListener('DOMContentLoaded',()=>{
+console.log("vous êtes connecté");
+});`
 
-* "a" ne doit pas être dans un button
+* Remplacer var par let dans le JS pour déclarer une variable
 
-* Pas de DOM dans le JS
-
-* Remplacer var par let dans le JS
-
-* L'envoie du formulaire en local ne marche pas
+* L'envoie du formulaire en local ne marche pas il faut faire un localStorage
 
 [Lien de la video](https://www.youtube.com/watch?v=CQZxeoQeo5c)
 
